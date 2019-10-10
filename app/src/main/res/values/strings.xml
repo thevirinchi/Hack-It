@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name">AR Travel Guide</string>
     <string name="usn">Email</string>
     <string name="usnHint">So we can ID you</string>
     <string name="insUsnHint">username@privider.domain</string>
