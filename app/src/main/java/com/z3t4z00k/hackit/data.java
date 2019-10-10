@@ -7,6 +7,7 @@ import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
+import com.zook.ardetailing.UnityPlayerActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -40,7 +41,7 @@ public class data extends AppCompatActivity {
         study.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent study = new Intent(data.this, data.class);
+                Intent study = new Intent(data.this, UnityPlayerActivity.class);
                 startActivity(study);
             }
         });
