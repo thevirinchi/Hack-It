@@ -29,7 +29,7 @@ import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String URL_LOGIN = "https://fileserver2.in/android/login.php";
+    public static final String URL_LOGIN = "https://fileserver2.in/android/ar/login.php";
     EditText ed_username, ed_password;
     SharedPreferences sharedPreferences;
     public static final String MY_PREFERENCES = "MyPrefs";

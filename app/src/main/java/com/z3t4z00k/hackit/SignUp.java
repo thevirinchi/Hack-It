@@ -24,7 +24,7 @@ import java.util.HashMap;
 public class SignUp extends AppCompatActivity {
 
     EditText usn, psw, conPsw;
-    public static final String URL_REGISTER = "https://fileserver2.in/android/addUser.php";
+    public static final String URL_REGISTER = "https://fileserver2.in/android/ar/addUser.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
