@@ -27,7 +27,7 @@
     <string name="webKiosk">Webkiosk</string>
     <string name="logout">Logout</string>
     <string name="profile">My Profile</string>
-    <string name="title_activity_profile">Fileserver2</string>
+    <string name="title_activity_profile">Profile</string>
     <string name="fnm">First Name</string>
     <string name="lnm">Last Name</string>
     <string name="rln">Roll Number</string>
@@ -35,5 +35,4 @@
     <string name="btn">Number</string>
     <string name="submit">Submit</string>
     <string name="cancel">Cancel</string>
-    <string name="title_activity_study_material">Fileserver2</string>
 </resources>
