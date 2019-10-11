@@ -7,7 +7,8 @@ import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
-import com.zook.ardetailing.UnityPlayerActivity;
+import com.zook.ar.UnityPlayerActivity;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -36,7 +37,14 @@ public class data extends AppCompatActivity {
             }
         });
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
+        Button time = findViewById(R.id.quesPapers);
+        time.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = getPackageManager().getLaunchIntentForPackage("com.arfoundn.first");
+                startActivity(intent);
+            }
+        });
         Button study = findViewById(R.id.studyMaterial);
         study.setOnClickListener(new View.OnClickListener() {
             @Override

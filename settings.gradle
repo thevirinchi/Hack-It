@@ -1,2 +1,2 @@
-include ':app', ':ARDetailing', ':VuforiaWrapper'
+include ':app', ':VuforiaWrapper', ':ARtravel'
 rootProject.name='Hack It'
